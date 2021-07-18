@@ -1,0 +1,46 @@
+.statistics {
+  text-align: center;
+  margin: auto;
+  width: 360px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(253, 219, 225);
+}
+.title {
+  border-radius: 1px;
+}
+.list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70px;
+  text-align: center;
+  padding-bottom: 10px;
+  border: 1px solid;
+}
+
+.item:nth-child(1) {
+  background-color: rgb(93, 151, 0);
+}
+
+.item:nth-child(2) {
+  background-color: rgb(218, 1, 171);
+}
+
+.item:nth-child(3) {
+  background-color: rgb(0, 96, 151);
+}
+
+.item:nth-child(4) {
+  background-color: rgb(198, 212, 2);
+}
+
+.item:nth-child(5) {
+  background-color: rgb(230, 105, 4);
+}

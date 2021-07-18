@@ -1,0 +1,14 @@
+.label {
+  width: 70px;
+  margin-bottom: 10px;
+  color: white;
+}
+.percentage {
+  margin: auto;
+  color: antiquewhite;
+  font-size: 20px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}

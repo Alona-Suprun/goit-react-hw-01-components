@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import userImage from './user.png';
 import s from './Profile.module.css';
