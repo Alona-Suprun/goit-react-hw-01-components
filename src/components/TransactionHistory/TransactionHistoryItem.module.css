@@ -1,0 +1,17 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text:nth-child(2n) {
+  background-color: rgb(253, 219, 225);
+}
+
+.textItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 30px;
+}
