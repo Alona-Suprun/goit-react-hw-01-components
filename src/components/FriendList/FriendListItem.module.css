@@ -1,0 +1,35 @@
+.friend {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 250px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(253, 219, 225);
+}
+.avatar {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.status {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
