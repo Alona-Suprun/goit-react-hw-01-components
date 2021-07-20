@@ -3,10 +3,10 @@ import s from './Statistics.module.css';
 
 const Statistics = ({ id, label, percentage }) => {
   return (
-    <div className={s.wrap}>
+    <li className={s.item}>
       <span className={s.label}>{label}</span>
       <span className={s.percentage}>{percentage}%</span>
-    </div>
+    </li>
   );
 };
 
